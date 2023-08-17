@@ -13,4 +13,26 @@ body{
     border-radius: 10px;
     border-radius: 10px;
     width: 100vw;
+    display:flex;
+    padding: 70px 114px 70px 151px;
+} #logos{
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap:45px;
+    margin-top: 34px;
+}#logoMario{
+
+    width: 400px;
+    height: 183px;
+}#logoPPE{
+    width: 400px;
+    height: 86px;
+}#logoKenzie{
+    width: 165px;
+    height: 41px;
+    margin-top: 40px;
+
 }

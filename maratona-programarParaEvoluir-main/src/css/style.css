@@ -2,14 +2,24 @@ body{
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top:5.56rem;
-    padding-left:5.5rem;
-    padding-right:5.5rem;
-    padding-bottom: 3.1875rem;
+
 }main{
     background: #F4F4F480;
-    height:100%;
-    width:100%;
+    max-width: 75rem;
+    margin: 5.625rem auto;
+    height: 36.25rem;
     border-radius: 10px;
 
+}#logoMario{
+    height: 11.4375rem;
+    width: 25rem;
+}#logoMaratonaNome{
+    width: 25rem;
+    height: 5.3125rem;
+}#logoKenzie{
+    width: 10.3125rem;
+    height: 2.5625rem;
+}#Logos{
+    display: flex;
+    flex-direction: column;
 }

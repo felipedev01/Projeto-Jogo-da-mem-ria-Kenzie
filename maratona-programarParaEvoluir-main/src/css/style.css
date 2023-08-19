@@ -1,38 +1,15 @@
 body{
     background-image: url(../img/bg.png);
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    
+    padding-top:5.56rem;
+    padding-left:5.5rem;
+    padding-right:5.5rem;
+    padding-bottom: 3.1875rem;
 }main{
-    margin: 89px 40px 51px 40px;
-    background-color: #F4F4F480;
+    background: #F4F4F480;
+    height:100%;
+    width:100%;
     border-radius: 10px;
-    border-radius: 10px;
-    width: 100vw;
-    display:flex;
-    padding: 70px 114px 70px 151px;
-} #logos{
-    display: flex;
-    align-content: stretch;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    gap:45px;
-    margin-top: 34px;
-}#logoMario{
-
-    width: 400px;
-    height: 183px;
-}#logoPPE{
-    width: 400px;
-    height: 86px;
-}#logoKenzie{
-    width: 165px;
-    height: 41px;
-    margin-top: 40px;
 
 }

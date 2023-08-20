@@ -20,18 +20,31 @@ main{
     margin:auto;
     height: 36.25rem;
     border-radius: 10px;
-   
+    display: flex;
+    justify-content: space-between;
+    padding:4.375rem 7.125rem 0 9.4375rem;
 
 }#logoMario{
     height: 11.4375rem;
-    width: 25rem;
+    max-width: 25rem;
 }#logoMaratonaNome{
-    width: 25rem;
+    max-width: 25rem;
     height: 5.3125rem;
 }#logoKenzie{
-    width: 10.3125rem;
+    max-width: 10.3125rem;
     height: 2.5625rem;
 }#Logos{
     display: flex;
     flex-direction: column;
+}#Jogar{
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+}#Jogar p{
+    font-size: 2rem;
+    line-height: 2.75rem;
+}#Jogar button{
+    max-width: 25rem;
+    height: 6.5rem;
+ 
 }

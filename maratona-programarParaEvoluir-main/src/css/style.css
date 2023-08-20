@@ -12,6 +12,7 @@ body{
     border-radius: 10px;
     margin-top: 5.5rem;
     padding-top: 5.5625rem;
+    padding-inline: 2.5rem;
 }
 
 main{
@@ -30,9 +31,12 @@ main{
 }#logoMaratonaNome{
     max-width: 25rem;
     height: 5.3125rem;
+    margin-top: 2.8287rem;
 }#logoKenzie{
     max-width: 10.3125rem;
     height: 2.5625rem;
+    margin-top: 5.265rem;
+    margin: auto;
 }#Logos{
     display: flex;
     flex-direction: column;
@@ -43,8 +47,28 @@ main{
 }#Jogar p{
     font-size: 2rem;
     line-height: 2.75rem;
-}#Jogar button{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    max-width: 23.4375rem;
+}#Jogar :nth-child(2){
+     
+    max-width: 19rem;
+    text-align: center;
+    margin-inline: auto;
+
+}
+
+#Jogar button{
     max-width: 25rem;
     height: 6.5rem;
- 
+    margin-top: 5.4375rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 5.4562rem;
+    text-align: center;
+    background-color:#049CD8;
+    border:.1875rem solid #F4F4F4;
+    color: #FFFFFF;
+
 }

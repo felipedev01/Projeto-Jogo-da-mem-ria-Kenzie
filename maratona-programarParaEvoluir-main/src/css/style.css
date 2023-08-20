@@ -1,14 +1,26 @@
-body{
-    background-image: url(../img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+html{
+    padding: 0 3.125rem;
+    background-color: black;
+}
 
-}main{
+body{
+   background-image: url(../img/bg.png);
+   background-repeat: no-repeat;
+    height: 45rem;
+    max-width: 80rem;
+    margin:0 auto;
+    border-radius: 10px;
+    margin-top: 5.5rem;
+    padding-top: 5.5625rem;
+}
+
+main{
     background: #F4F4F480;
     max-width: 75rem;
-    margin: 5.625rem auto;
+    margin:auto;
     height: 36.25rem;
     border-radius: 10px;
+   
 
 }#logoMario{
     height: 11.4375rem;

@@ -1,60 +1,54 @@
-body {
-  background-image: url("../img/bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  font-family: "Nunito", sans-serif;
+html{
+  padding: 0 3.125rem;
+  background-color: black;
 }
 
-header {
+header{
+  height: 8.55rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px 0 60px;
-}
-
-header div {
-  background-image: url("../img/Pipe.png");
+  background-image: url(../img/Pipe.png);
   background-repeat: no-repeat;
-  width: 685px;
-  height: 150px;
-  display: flex;
-  align-items: center;
+  background-size: 43.125rem  8rem;
+  background-position-y: bottom;
   justify-content: space-between;
-  font-weight: 700;
-  font-size: 35px;
-  color: #f4f4f4;
-  line-height: 55px;
+  align-items: flex-start;
+ 
+}
+#Pontuacao{
+       display:flex;
+       color:#F4F4F4;
+       font-family: 'Nunito', sans-serif;
+       font-weight: 700;
+       font-size: 2.5rem;
+       line-height: 3.41rem;
+       gap: 7.625rem;
+       margin-left: 5.375rem;
+       margin-top: 3.0625rem;
 }
 
-header div p {
-  margin: 0 80px;
-}
-
-header button {
-  background: #e52521;
-  border: 3px solid #f4f4f4;
+body{
+ background-image: url(../img/bg.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+  height: 45rem;
+  max-width: 80rem;
+  margin:0 auto;
   border-radius: 10px;
-  width: 200px;
-  height: 52px;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 49px;
-  text-align: center;
-  color: #ffffff;
-  margin-right: 80px;
+  margin-top: 5.5rem;
+  
 }
 
-main {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  margin: 0 auto;
-  width: 80%;
-  grid-column-gap: 20px;
-  grid-row-gap: 70px;
-}
-
-main img {
-  height: 200px;
-  width: 200px;
+main{
+  max-width: 75rem;
+  margin:auto;
+  height: 36.25rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding:0 7.125rem 0 9.4375rem;
+  flex-wrap: wrap;
+  margin-top:  1.375rem;
+}main img{
+  height: 12.5rem;
+  width: 12.5rem;
 }

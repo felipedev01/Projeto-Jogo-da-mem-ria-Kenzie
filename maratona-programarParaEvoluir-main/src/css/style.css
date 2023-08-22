@@ -11,7 +11,6 @@ body{
     margin:0 auto;
     border-radius: 10px;
     margin-top: 5.5rem;
-    padding-top: 5.5625rem;
     padding-inline: 2.5rem;
 }
 
@@ -23,7 +22,7 @@ main{
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    padding:4.375rem 7.125rem 0 9.4375rem;
+    padding:0 .125rem 0 9.4375rem;
 
 }#logoMario{
     height: 11.4375rem;

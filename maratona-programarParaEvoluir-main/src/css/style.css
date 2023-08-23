@@ -1,11 +1,11 @@
 html{
-    padding: 0 3.125rem;
-    background-color: black;
+    
 }
 
 body{
    background-image: url(../img/bg.png);
    background-repeat: no-repeat;
+   background-size: cover;
     height: 45rem;
     max-width: 80rem;
     margin:0 auto;
@@ -22,7 +22,7 @@ main{
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    padding:0 .125rem 0 9.4375rem;
+    padding:4.375rem 7.125rem 0 9.4375rem;
 
 }#logoMario{
     height: 11.4375rem;
@@ -47,8 +47,9 @@ main{
     font-size: 2rem;
     line-height: 2.75rem;
     text-align: center;
-    font-family: 'Nunito', sans-serif;
     max-width: 23.4375rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
 }#Jogar :nth-child(2){
      
     max-width: 19rem;
@@ -69,5 +70,13 @@ main{
     background-color:#049CD8;
     border:.1875rem solid #F4F4F4;
     color: #FFFFFF;
+
+}
+#Jogar button:hover {
+    background-color: transparent;
+    color: #049CD8;
+    cursor: pointer;
+    border:.1875rem solid #049CD8;
+    transition: 200ms;
 
 }

@@ -55,15 +55,18 @@ body{
 }
 
 main{
-  max-width: 75rem;
-  margin:auto;
-  height: 36.25rem;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-  padding:0 7.125rem 0 9.4375rem;
-  flex-wrap: wrap;
-  margin-top:  1.375rem;
+    max-width: 75rem;
+    height: 36.25rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2.125rem;
+    margin-left: 3.8125rem;
+    margin-right: 5.75rem;
+    gap: 109px;
+    align-content: flex-start;
+    row-gap: 63px;
 }main img{
   height: 12.5rem;
   width: 12.5rem;

@@ -26,6 +26,22 @@ header{
        margin-top: 3.0625rem;
 }
 
+button{
+      background-color:#E52521;
+      width: 12.5rem;
+      height: 3.25rem;
+      border:.1875rem solid #F4F4F4;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 400;
+      font-size: 2.25rem;
+      line-height: 3.0688rem;
+      color: #FFFFFF;
+      border-radius: .625rem;
+      text-align: center;
+      margin-right: 6rem;
+      margin-top: 3.0625rem;
+}
+
 body{
  background-image: url(../img/bg.png);
  background-repeat: no-repeat;

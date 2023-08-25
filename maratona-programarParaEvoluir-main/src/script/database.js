@@ -18,5 +18,5 @@ const personagens = [
     id: "3",
     name: "piranha",
     img: "./src/img/Piranha.png",
-  },
+  }
 ];

@@ -59,10 +59,19 @@ function clickCarta(event){
    click2=imgClicada
    testPar()
  
+   setTimeout(() => {
+    
+   
+     click1.src="./src/img/QuestionBlock.png"
+     click2.src="./src/img/QuestionBlock.png"
+
+     click1=null;
+     click2=null;
+    
+  }, "1000");
  }
 
- console.log(click1)
- console.log(click2)
+ 
   
 }
 
@@ -71,12 +80,20 @@ function testPar(){
 
   if(click1.id==click2.id){
 
-    console.log("Você acertou!")
+    alert("Você acertou!")
   }else{
-    console.log("Você errou!")
-  }
-}
 
+    alert("Você errou!")
+
+  }
+
+
+  
+
+  
+}
+click1=null;
+click2=null;
 
 
 function embaralharArray(array) {

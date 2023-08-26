@@ -1,6 +1,7 @@
 let main= document.getElementById("cards")
+let span=document.getElementById("Pontos")
 
-
+let pontuacao=span.innerText
 const novoArray=[...personagens,...personagens]
 
 
@@ -33,6 +34,7 @@ function RenderizarCartas(){
 
 let click1=null;
 let click2=null;
+let pontos=0;
 
 function clickCarta(event){
 
@@ -81,6 +83,8 @@ function testPar(){
   if(click1.id==click2.id){
 
     alert("Você acertou!")
+    pontos=pontos+1
+    span.innerHTML=pontos
   }else{
 
     alert("Você errou!")

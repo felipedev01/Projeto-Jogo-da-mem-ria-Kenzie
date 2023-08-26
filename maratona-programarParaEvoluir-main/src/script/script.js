@@ -3,12 +3,12 @@ let main= document.getElementById("cards")
 
 const novoArray=[...personagens,...personagens]
 
-console.log(novoArray)
+
 
 const arrayEmbaralhado = embaralharArray(novoArray);
 
 
-console.log(arrayEmbaralhado)
+
 
 function RenderizarCartas(){
 
@@ -31,7 +31,14 @@ function RenderizarCartas(){
 
 }
 
+let click1=null;
+let click2=null;
+
 function clickCarta(event){
+
+
+  
+
 
   const imgClicada=event.target
 
@@ -39,12 +46,35 @@ function clickCarta(event){
 
   let personagemClicado= arrayEmbaralhado.find((Element)=>Element.id ==idClicado)
 
-  console.log(personagemClicado)
+  
 
-  console.log(idClicado)
+  
 
   imgClicada.src=personagemClicado.img
+
+  if(click1==null ){
+
+    click1=imgClicada
+ }else if(click2==null){
+   click2=imgClicada
+   testPar()
+ 
+ }
+
+ console.log(click1)
+ console.log(click2)
   
+}
+
+
+function testPar(){
+
+  if(click1.id==click2.id){
+
+    console.log("Você acertou!")
+  }else{
+    console.log("Você errou!")
+  }
 }
 
 
@@ -55,7 +85,7 @@ function embaralharArray(array) {
     [array[i], array[j]] = [array[j], array[i]]; // Troca os elementos nas posições i e j
   }
 
-  console.log("Função embaralhar array funcionando!")
+  
   return array;
 }
 
@@ -65,8 +95,7 @@ function embaralharArray(array) {
 
 
 
-console.log(novoArray)
-console.log(arrayEmbaralhado)
+
 RenderizarCartas()
 
 
